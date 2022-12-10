@@ -1,6 +1,5 @@
 NeA<-100
 NeX<-75
-h1<-(0:100)/100
 
 MV_A<-function(x,h,sm,sf){
   return(NeA*(sm+sf)*(x*(1-2*h)+h)) 
